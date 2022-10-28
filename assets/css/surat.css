@@ -1,5 +1,5 @@
 body {
-  background-color: #c3c9b9;
+  background-color: #bbc2af;
 }
 .container {
   position: absolute;
@@ -11,7 +11,7 @@ body {
 .title {
   position: absolute;
   height: 25px;
-  left: 95px;
+  left: 115px;
   top: 425px;
 
   font-family: 'Cormorant SC';
@@ -26,7 +26,7 @@ body {
   position: absolute;
   width: 175px;
   height: 53px;
-  left: 100px;
+  left: 115px;
   top: 463px;
 
   font-family: 'Cormorant SC';
@@ -40,7 +40,7 @@ body {
   position: absolute;
   width: 201px;
   height: 53px;
-  left: 90px;
+  left: 100px;
   top: 499px;
 
   font-family: 'Cormorant SC';
@@ -54,7 +54,7 @@ body {
   position: absolute;
   width: none;
   height: 25px;
-  left: 95px;
+  left: 115px;
   top: 566px;
   font-family: 'Cormorant SC';
   font-style: normal;
@@ -218,6 +218,7 @@ body {
   left: 259px;
   top: 960px;
 }
+
 .place {
   position: absolute;
   height: 72px;
@@ -392,6 +393,95 @@ body {
   left: 24px;
   top: 2000px;
 }
+.isi-counting-days {
+  left: 100px;
+}
+.counting-days {
+  position: absolute;
+  width: 282px;
+  height: 66px;
+  left: 46px;
+  top: 2490px;
+
+  font-family: 'Cormorant SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 106.6%;
+  /* or 28px */
+
+  text-align: center;
+
+  color: #bd7b5f;
+}
+.days {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  gap: 4px;
+
+  position: absolute;
+  width: 65px;
+  height: 69px;
+  left: -10px;
+  top: 100px;
+
+  background: #f3dbb5;
+  border-radius: 4px;
+}
+.hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  gap: 4px;
+
+  position: absolute;
+  width: 65px;
+  height: 69px;
+  left: 70px;
+  top: 100px;
+
+  background: #f3dbb5;
+  border-radius: 4px;
+}
+.minutes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  gap: 4px;
+
+  position: absolute;
+  width: 65px;
+  height: 69px;
+  left: 150px;
+  top: 100px;
+
+  background: #f3dbb5;
+  border-radius: 4px;
+}
+.seconds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  gap: 4px;
+
+  position: absolute;
+  width: 65px;
+  height: 69px;
+  left: 230px;
+  top: 100px;
+
+  background: #f3dbb5;
+  border-radius: 4px;
+}
 .imager {
   width: 375px;
   height: 667px;
@@ -407,7 +497,7 @@ body {
   position: absolute;
   height: 31px;
   left: 140px;
-  top: 2502px;
+  top: 2730px;
 
   font-family: 'Cormorant SC';
   font-style: normal;
@@ -422,7 +512,7 @@ body {
   width: 292px;
   height: 75px;
   left: 40px;
-  top: 2566px;
+  top: 2800px;
 
   font-family: 'Cormorant Garamond';
   font-style: normal;
@@ -436,7 +526,7 @@ body {
   width: 292px;
   height: 75px;
   left: 40px;
-  top: 2600px;
+  top: 2850px;
 
   font-family: 'Cormorant Garamond';
   font-style: normal;
@@ -450,14 +540,14 @@ body {
   width: 0px;
   height: 58px;
   left: 155px;
-  top: 2704px;
+  top: 3004px;
 }
 .kotak {
   position: absolute;
   width: 144px;
   height: 219px;
   left: 23px;
-  top: 2752px;
+  top: 3090px;
 
   background: #d9d9d9;
 }
@@ -466,7 +556,7 @@ body {
   width: 165px;
   height: 113px;
   left: 183px;
-  top: 2793px;
+  top: 3150px;
 
   background: #d9d9d9;
 }
@@ -475,7 +565,7 @@ body {
   width: 165px;
   height: 113px;
   left: 23px;
-  top: 3012px;
+  top: 3350px;
 
   background: #d9d9d9;
 }
@@ -484,7 +574,7 @@ body {
   width: 144px;
   height: 219px;
   left: 204px;
-  top: 2971px;
+  top: 3290px;
 
   background: #d9d9d9;
 }
@@ -492,7 +582,7 @@ body {
   position: absolute;
   height: 31px;
   left: 90px;
-  top: 3247px;
+  top: 3560px;
 
   font-family: 'Cormorant SC';
   font-style: normal;
@@ -508,7 +598,7 @@ body {
   width: 292px;
   height: 75px;
   left: 40px;
-  top: 3317px;
+  top: 3630px;
 
   font-family: 'Cormorant Garamond';
   font-style: normal;
@@ -529,7 +619,7 @@ body {
   width: 108px;
   height: 37px;
   left: 132px;
-  top: 3407px;
+  top: 3730px;
   border-radius: 5px;
 }
 .rsvp {
@@ -544,33 +634,16 @@ body {
   width: 323px;
   height: 50px;
   left: 25px;
-  top: 3481px;
+  top: 3800px;
 
   background: #bd7b5f;
   border-radius: 5px;
-}
-
-/* halaman rsvp */
-.title-rsvp {
-  position: absolute;
-  height: 48px;
-  left: 36%;
-  right: 37.33%;
-  top: 87px;
-
-  font-family: 'Cormorant SC';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  text-align: center;
-  letter-spacing: 0.025em;
 }
 .flower-down {
   position: absolute;
   height: 202.41px;
   left: 227px;
-  top: 3336px;
+  top: 3660px;
 }
 .flower-image {
   position: absolute;
