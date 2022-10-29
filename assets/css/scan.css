@@ -3,7 +3,7 @@ body {
 }
 .kotakluar {
   position: absolute;
-  width: 327px;
+  width: 427px;
   height: 546px;
   left: 24px;
   top: 66px;
@@ -31,8 +31,8 @@ body {
   position: absolute;
   width: 44px;
   height: 46.75px;
-  left: 298.12px;
-  top: -10px;
+  left: 200.12px;
+  top: -20px;
 }
 .qr-code {
   position: absolute;

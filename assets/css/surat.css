@@ -22,7 +22,7 @@ body {
   letter-spacing: 0.085em;
   color: white;
 }
-.name {
+.name1 {
   position: absolute;
   width: 175px;
   height: 53px;
@@ -159,64 +159,64 @@ body {
 }
 .hurufh {
   position: absolute;
-  left: 85px;
+  left: 92px;
   top: 920px;
 }
 .hurufe {
   position: absolute;
-  left: 123px;
+  left: 130px;
   top: 920px;
 }
 .hurufn {
   position: absolute;
-  left: 148px;
+  left: 155px;
   top: 920px;
 }
 .hurufd {
   position: absolute;
-  left: 183px;
+  left: 190px;
   top: 920px;
 }
 .hurufy {
   position: absolute;
-  left: 213px;
+  left: 220px;
   top: 920px;
 }
 .simboldan {
   position: absolute;
-  left: 70px;
-  top: 963px;
+  left: 80px;
+  top: 972px;
 }
 .huruff {
   position: absolute;
-  left: 113px;
-  top: 960px;
+  left: 120px;
+  top: 970px;
 }
 .hurufi {
   position: absolute;
-  left: 138px;
-  top: 960px;
+  left: 145px;
+  top: 970px;
 }
 .hurufr {
   position: absolute;
-  left: 153px;
-  top: 960px;
+  left: 160px;
+  top: 970px;
 }
 .hurufm {
   position: absolute;
-  left: 185px;
-  top: 960px;
+  left: 195px;
+  top: 970px;
 }
 .hurufa {
   position: absolute;
-  left: 224px;
-  top: 960px;
+  left: 235px;
+  top: 970px;
   bottom: 1.06%;
 }
 .huruf-n {
   position: absolute;
-  left: 259px;
-  top: 960px;
+  left: 273px;
+  top: 970px;
 }
 
 .place {
@@ -520,6 +520,8 @@ body {
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+
+  color: #6a6d64;
 }
 .isi-wish {
   position: absolute;
@@ -534,6 +536,8 @@ body {
   font-size: 15px;
   line-height: 18px;
   text-align: center;
+
+  color: #6a6d64;
 }
 .line {
   position: absolute;
@@ -578,7 +582,7 @@ body {
 
   background: #d9d9d9;
 }
-.wedding-gift {
+.wedding-gift1 {
   position: absolute;
   height: 31px;
   left: 90px;
@@ -593,6 +597,13 @@ body {
 
   color: #bd7b5f;
 }
+.qr-code {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 63.5px;
+  top: 100px;
+}
 .isi-gift {
   position: absolute;
   width: 292px;
@@ -606,6 +617,8 @@ body {
   font-size: 15px;
   line-height: 18px;
   text-align: center;
+
+  color: #6a6d64;
 }
 .click-here {
   display: flex;
@@ -656,7 +669,7 @@ body {
   position: absolute;
   height: 678.94px;
   left: 0px;
-  top: 2275px;
+  top: 2168px;
 }
 .flower-inisial-f {
   position: absolute;
@@ -785,7 +798,196 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.title-rsvp {
+  position: absolute;
+  height: 48px;
+  left: 80px;
+  right: 37.33%;
+  top: 27px;
 
+  font-family: 'Cormorant SC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.025em;
+}
+.name {
+  position: absolute;
+  width: 133px;
+  height: 24px;
+  left: 28px;
+  top: 97px;
+
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.phone {
+  position: absolute;
+  width: 50px;
+  height: 24px;
+  left: 28px;
+  top: 180px;
+
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}
+.relation {
+  position: absolute;
+  width: 88px;
+  height: 24px;
+  left: 28px;
+  top: 260px;
+
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.confirmation {
+  position: absolute;
+  width: 109px;
+  height: 24px;
+  left: 28px;
+  top: 340px;
+
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.number-pax {
+  position: absolute;
+  width: 119px;
+  height: 24px;
+  left: 28px;
+  top: 420px;
+
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.full-name2 {
+  position: absolute;
+  width: 146px;
+  height: 24px;
+  left: 28px;
+  top: 510px;
+
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.wishes {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 28px;
+  top: 590px;
+
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 4px;
+
+  position: absolute;
+  width: 272px;
+  height: 50px;
+  left: 28px;
+  top: 770px;
+
+  background: #bd7b5f;
+  border-radius: 5px;
+}
+.form {
+  background-color: transparent;
+  width: 272px;
+  height: 43px;
+  left: 24px;
+  top: 122px;
+  right: 27px;
+  border: solid 1px #ffffff;
+}
+.form2 {
+  background-color: transparent;
+  width: 272px;
+  height: 110px;
+  left: 24px;
+  top: 122px;
+  right: 27px;
+  border: solid 1px #ffffff;
+}
+.form-out {
+  padding-top: 10px;
+}
+.close1 {
+  position: absolute;
+  width: 44px;
+  height: 46.75px;
+  left: 298.12px;
+  top: -10px;
+}
+.close3 {
+  position: absolute;
+  width: 44px;
+  height: 46.75px;
+  left: 259.12px;
+  top: -10px;
+}
+.wedding-gift {
+  position: absolute;
+  height: 36px;
+  left: 55px;
+  top: 50px;
+
+  font-family: 'Cormorant SC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.025em;
+
+  color: #ffffff;
+}
+.kotakluar1 {
+  left: 100px;
+}
+.kotakluar2 {
+}
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content {
