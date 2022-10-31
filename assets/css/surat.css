@@ -360,7 +360,7 @@ body {
   width: 187px;
   height: 46px;
   left: 40px;
-  top: 1906px;
+  top: 1830px;
 
   font-family: 'Cormorant Garamond';
   font-style: italic;
@@ -375,7 +375,7 @@ body {
   width: 120px;
   height: 29px;
   left: 40px;
-  top: 1931px;
+  top: 1858px;
 
   font-family: 'Cormorant SC';
   font-style: normal;
@@ -544,6 +544,12 @@ body {
   margin-left: 35px;
   margin-right: 50px;
   width: 230px;
+}
+.prev {
+  color: #bd7b5f;
+}
+.carousel-control-prev-icon {
+  color: #bd7b5f;
 }
 .line {
   position: absolute;
