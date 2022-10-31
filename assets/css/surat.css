@@ -539,6 +539,12 @@ body {
 
   color: #6a6d64;
 }
+.isi-wish1 {
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 50px;
+  width: 230px;
+}
 .line {
   position: absolute;
   width: 0px;
@@ -860,7 +866,7 @@ body {
   width: 109px;
   height: 24px;
   left: 28px;
-  top: 340px;
+  top: 650px;
 
   font-family: 'Cormorant Garamond';
   font-style: normal;
@@ -875,7 +881,7 @@ body {
   width: 119px;
   height: 24px;
   left: 28px;
-  top: 420px;
+  top: 340px;
 
   font-family: 'Cormorant Garamond';
   font-style: normal;
@@ -890,7 +896,7 @@ body {
   width: 146px;
   height: 24px;
   left: 28px;
-  top: 510px;
+  top: 420px;
 
   font-family: 'Cormorant Garamond';
   font-style: normal;
@@ -905,7 +911,7 @@ body {
   width: 55px;
   height: 24px;
   left: 28px;
-  top: 590px;
+  top: 500px;
 
   font-family: 'Cormorant Garamond';
   font-style: normal;
@@ -953,6 +959,11 @@ body {
 .form-out {
   padding-top: 10px;
 }
+.formluar {
+  font-weight: 100 !important;
+  display: flex;
+  justify-content: space-between;
+}
 .close1 {
   position: absolute;
   width: 44px;
@@ -982,11 +993,6 @@ body {
   letter-spacing: 0.025em;
 
   color: #ffffff;
-}
-.kotakluar1 {
-  left: 100px;
-}
-.kotakluar2 {
 }
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
