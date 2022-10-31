@@ -17,7 +17,7 @@
     <!-- animation css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>halaman utama</title>
+    <title>Wedding C & F</title>
     <style>
       .modal-backdrop{
         z-index: 0!important;
@@ -25,6 +25,18 @@
     </style>
   </head>
   <body>
+  <audio id="myAudio" class="d-none" controls autoplay>
+    <source src="assets/mp3/Thank God I Found you.mp3" type="audio/mpeg">
+  </audio>
+  <!-- <source src="horse.ogg" type="audio/ogg"> -->
+  <!-- <audio id="myAudio" controls autoplay="autoplay" loop="loop">
+    <source src="assets/mp3/Thank God I Found you.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio> -->
+  <!-- <audio id="audio" loop>
+    <source src="https://benedictusgeby.com/music/gb-bgmusic2.mp3" type="audio/mpeg">
+  </audio> -->
+  <audio control autoplay muted src="assets\mp3\Thank God I Found you.mp3"></audio>
     <div class="mx-auto position-relative" style="max-width: 375px;">
       <div class="bagianatas">
         <div class="image">
@@ -861,13 +873,19 @@
               </svg>          
           </div>
         <div class="panah">
-          <a href="#information">
+          <a href="#information" onclick="showSound()">
             <span style="top: 600px"></span>
             <span style="top: 616px"></span>
           </a>          
         </div>
       </div>
       <div class="isi">
+        <div class="sound fixed-bottom" style="right: unset;">
+          <!-- <img class="soundon" src="assets/image/sound-on.png" alt=""> -->
+          <div class="soundon p-3 rounded-circle" style="display: none;">
+            <img id="soundImg" onclick="toggleSound()" src="assets/image/sound-off.png" style=" width: 25px; height: 25px;" alt="error">
+          </div>
+        </div>
         <svg id="information" width="375" height="3200px" viewBox="0 0 375 3200" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="375" height="3200" fill="#D0D7C4" />
         </svg>
@@ -3348,7 +3366,7 @@
               </svg>            
           </div>
             <div class="union d-flex align-items-center justify-content-center" data-aos="zoom-in-down" data-aos-duration="1500">
-              <img class="" src="assets/image/Mask group3 (1).png" alt="error wedding" style="position: absolute;">
+              <img class="" src="assets/image/Mask group4.png" alt="error wedding" style="position: absolute;">
   
               <svg width="100%" height="449" viewBox="0 0 325 449" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="path-1-inside-1_24_7771" fill="white">
@@ -3403,7 +3421,7 @@
           data-aos-duration="1500">
             Name
           </div>
-          <div id="carouselExampleCaptions" class="isi-wish carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleCaptions" class="isi-wish carousel slide" style="overflow: hidden;" data-bs-ride="carousel">
             <!-- <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -3427,11 +3445,13 @@
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true" style="height: 23px;"></span>
+              <!-- <span class="carousel-control-prev-icon" aria-hidden="true" style="height: 23px;"></span> -->
+              <span class="iconify" style="color: #BD7B5F;" data-icon="radix-icons:caret-left" data-width="40"></span>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon text-danger" aria-hidden="true" style="height: 23px;"></span>
+              <!-- <span class="carousel-control-next-icon " aria-hidden="true" style="height: 23px;"></span> -->
+              <span class="iconify" style="color: #BD7B5F;" data-icon="radix-icons:caret-right" data-width="40"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
@@ -3454,16 +3474,16 @@
             <div id="caption"></div>
           </div>
           <div class="kotak" data-aos="fade-up" data-aos-duration="3000">
-              <img id="myImg" src="assets/image/SQNC9087 (1).jpg" alt="keterangan" style="width: 100%; max-width: 300px" >
+              <img id="myImg" src="assets/image/kotak1 (2).jpg" alt="keterangan" style="width: 100%; max-width: 300px" >
           </div>
           <div class="kotak2" data-aos="fade-up" data-aos-duration="3000">
-            <img id="myImg2" src="assets/image/kotak 2 (1).jpg" alt="keterangan" style="width: 100%; max-width: 300px" >
+            <img id="myImg2" src="assets/image/kotak2.jpg" alt="keterangan" style="width: 100%; max-width: 300px" >
           </div>
           <div class="kotak3" data-aos="fade-up" data-aos-duration="3000">
-            <img id="myImg3" src="assets/image/kotak 3 (1).jpg" alt="keterangan" style="width: 100%; max-width: 300px" >
+            <img id="myImg3" src="assets/image/kotak3.jpg" alt="keterangan" style="width: 100%; max-width: 300px" >
           </div>
           <div class="kotak4" data-aos="fade-up" data-aos-duration="3000">
-            <img id="myImg4" src="assets/image/SQNC9070 (1).jpg" alt="keterangan" style="width: 100%; max-width: 300px" >
+            <img id="myImg4" src="assets/image/kotak4 (2).jpg " alt="keterangan" style="width: 100%; max-width: 300px" >
           </div>
           
           <div class="wedding-gift1" data-aos="fade-up"
@@ -3612,7 +3632,7 @@
               </svg>        
           </div>
           <div class="rsvp">
-            <button style="border: none;" class="bg-transparent" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2"><svg width="323" height="50" viewBox="0 0 323 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button style="border: none;" class="bg-transparent mb-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2"><svg width="323" height="50" viewBox="0 0 323 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="323" height="50" rx="5" fill="#BD7B5F"/>
               <path d="M138.199 21.9765L129.881 16.9765C129.767 16.9112 129.635 16.8765 129.5 16.8765C129.365 16.8765 129.233 16.9112 129.119 16.9765L120.801 21.9765C120.705 22.033 120.626 22.1106 120.571 22.2021C120.517 22.2936 120.489 22.3961 120.49 22.4999V30.6249C120.49 30.9565 120.636 31.2744 120.896 31.5088C121.156 31.7432 121.508 31.8749 121.876 31.8749H137.124C137.492 31.8749 137.844 31.7432 138.104 31.5088C138.364 31.2744 138.51 30.9565 138.51 30.6249V22.4999C138.511 22.3961 138.483 22.2936 138.429 22.2021C138.374 22.1106 138.295 22.033 138.199 21.9765ZM121.876 30.6249V23.7109L127.585 27.3828C127.701 27.4584 127.841 27.4994 127.984 27.4999H131.016C131.159 27.4994 131.299 27.4584 131.415 27.3828L137.124 23.7109V30.6249H121.876Z" fill="#ECDCC5"/>
               <path d="M155.19 31C154.883 31 154.316 30.4267 153.49 29.28C152.663 28.1333 151.663 26.5267 150.49 24.46L152.33 23.88C153.436 25.6267 154.356 26.9867 155.09 27.96C155.836 28.9333 156.496 29.6467 157.07 30.1C157.643 30.54 158.203 30.76 158.75 30.76C158.776 30.76 158.79 30.8 158.79 30.88C158.79 30.96 158.776 31 158.75 31H155.19ZM150.63 18.44C151.856 18.44 152.803 18.6667 153.47 19.12C154.15 19.56 154.49 20.18 154.49 20.98C154.49 21.6333 154.283 22.2533 153.87 22.84C153.456 23.4133 152.916 23.88 152.25 24.24C151.583 24.5867 150.896 24.76 150.19 24.76C149.67 24.76 149.303 24.7533 149.09 24.74V29.38C149.09 29.7933 149.123 30.0933 149.19 30.28C149.256 30.4667 149.383 30.5933 149.57 30.66C149.77 30.7267 150.083 30.76 150.51 30.76C150.536 30.76 150.55 30.8 150.55 30.88C150.55 30.96 150.536 31 150.51 31C150.07 31 149.723 30.9933 149.47 30.98L147.95 30.96L146.49 30.98C146.223 30.9933 145.863 31 145.41 31C145.37 31 145.35 30.96 145.35 30.88C145.35 30.8 145.37 30.76 145.41 30.76C145.836 30.76 146.143 30.7267 146.33 30.66C146.53 30.5933 146.663 30.4667 146.73 30.28C146.81 30.08 146.85 29.78 146.85 29.38V20.12C146.85 19.72 146.816 19.4267 146.75 19.24C146.683 19.0533 146.55 18.9267 146.35 18.86C146.15 18.78 145.843 18.74 145.43 18.74C145.403 18.74 145.39 18.7 145.39 18.62C145.39 18.54 145.403 18.5 145.43 18.5L146.49 18.52C147.103 18.5467 147.59 18.56 147.95 18.56C148.35 18.56 148.776 18.54 149.23 18.5C149.376 18.4867 149.563 18.4733 149.79 18.46C150.03 18.4467 150.31 18.44 150.63 18.44ZM152.19 21.74C152.19 20.6467 152.03 19.8933 151.71 19.48C151.39 19.0667 150.93 18.86 150.33 18.86C149.876 18.86 149.556 18.96 149.37 19.16C149.183 19.36 149.09 19.6933 149.09 20.16V24.16C149.41 24.2133 149.796 24.24 150.25 24.24C150.73 24.24 151.11 24.1667 151.39 24.02C151.67 23.8733 151.87 23.62 151.99 23.26C152.123 22.9 152.19 22.3933 152.19 21.74ZM163.583 20.52C163.583 21 163.703 21.4267 163.943 21.8C164.196 22.1733 164.503 22.5 164.863 22.78C165.223 23.06 165.71 23.4 166.323 23.8C166.99 24.2267 167.523 24.6 167.923 24.92C168.323 25.24 168.663 25.6333 168.943 26.1C169.223 26.5533 169.363 27.08 169.363 27.68C169.363 28.3733 169.176 28.9933 168.803 29.54C168.43 30.0733 167.91 30.4933 167.243 30.8C166.59 31.0933 165.856 31.24 165.043 31.24C164.456 31.24 163.83 31.16 163.163 31C162.51 30.8267 162.07 30.64 161.843 30.44C161.776 30.3867 161.723 30.34 161.683 30.3C161.656 30.2467 161.643 30.1667 161.643 30.06L161.583 26.88V26.86C161.583 26.8067 161.616 26.78 161.683 26.78C161.75 26.7667 161.79 26.7867 161.803 26.84C162.203 27.6533 162.55 28.3133 162.843 28.82C163.15 29.3267 163.53 29.7733 163.983 30.16C164.45 30.5467 164.976 30.74 165.563 30.74C166.096 30.74 166.536 30.6 166.883 30.32C167.23 30.0267 167.403 29.5333 167.403 28.84C167.403 28.2533 167.27 27.74 167.003 27.3C166.75 26.86 166.436 26.4867 166.063 26.18C165.69 25.8733 165.176 25.5067 164.523 25.08C163.883 24.6667 163.383 24.3133 163.023 24.02C162.676 23.7267 162.376 23.3733 162.123 22.96C161.87 22.5467 161.743 22.06 161.743 21.5C161.743 20.7933 161.943 20.2 162.343 19.72C162.756 19.2267 163.283 18.8667 163.923 18.64C164.563 18.4 165.236 18.28 165.943 18.28C166.41 18.28 166.883 18.3267 167.363 18.42C167.843 18.5 168.23 18.6 168.523 18.72C168.643 18.7733 168.723 18.8333 168.763 18.9C168.803 18.9533 168.823 19.0267 168.823 19.12V22.06C168.823 22.1 168.79 22.1333 168.723 22.16C168.656 22.1733 168.616 22.16 168.603 22.12L168.443 21.74C168.11 20.9 167.716 20.1867 167.263 19.6C166.823 19.0133 166.203 18.72 165.403 18.72C164.87 18.72 164.43 18.8733 164.083 19.18C163.75 19.4867 163.583 19.9333 163.583 20.52ZM185.596 18.5C185.636 18.5 185.656 18.54 185.656 18.62C185.656 18.7 185.636 18.74 185.596 18.74C185.116 18.74 184.656 18.9533 184.216 19.38C183.776 19.8067 183.423 20.38 183.156 21.1L179.456 30.98C179.443 31.0333 179.369 31.06 179.236 31.06C179.103 31.06 179.029 31.0333 179.016 30.98L173.916 20.16C173.676 19.68 173.436 19.3267 173.196 19.1C172.956 18.86 172.689 18.74 172.396 18.74C172.356 18.74 172.336 18.7 172.336 18.62C172.336 18.54 172.356 18.5 172.396 18.5C172.596 18.5 172.736 18.5067 172.816 18.52C173.083 18.5467 173.429 18.56 173.856 18.56C175.003 18.56 175.976 18.5467 176.776 18.52C176.989 18.5067 177.256 18.5 177.576 18.5C177.616 18.5 177.636 18.54 177.636 18.62C177.636 18.7 177.616 18.74 177.576 18.74C177.176 18.74 176.863 18.8267 176.636 19C176.423 19.16 176.316 19.3933 176.316 19.7C176.316 19.9267 176.389 20.2 176.536 20.52L180.176 28.28L179.236 29.92L182.596 21.04C182.729 20.6667 182.796 20.3467 182.796 20.08C182.796 19.6667 182.669 19.34 182.416 19.1C182.176 18.86 181.823 18.74 181.356 18.74C181.316 18.74 181.296 18.7 181.296 18.62C181.296 18.54 181.316 18.5 181.356 18.5L182.336 18.52C182.896 18.5467 183.396 18.56 183.836 18.56C184.089 18.56 184.403 18.5467 184.776 18.52L185.596 18.5ZM191.719 29.3C191.719 29.7267 191.766 30.04 191.859 30.24C191.952 30.4267 192.126 30.56 192.379 30.64C192.646 30.72 193.066 30.76 193.639 30.76C193.679 30.76 193.699 30.8 193.699 30.88C193.699 30.96 193.679 31 193.639 31C193.092 31 192.666 30.9933 192.359 30.98L190.619 30.96L189.159 30.98C188.892 30.9933 188.532 31 188.079 31C188.039 31 188.019 30.96 188.019 30.88C188.019 30.8 188.039 30.76 188.079 30.76C188.506 30.76 188.812 30.7267 188.999 30.66C189.199 30.5933 189.332 30.4667 189.399 30.28C189.466 30.08 189.499 29.78 189.499 29.38V20.12C189.499 19.72 189.466 19.4267 189.399 19.24C189.332 19.0533 189.199 18.9267 188.999 18.86C188.799 18.78 188.492 18.74 188.079 18.74C188.039 18.74 188.019 18.7 188.019 18.62C188.019 18.54 188.039 18.5 188.079 18.5L189.139 18.52C189.752 18.5467 190.239 18.56 190.599 18.56C190.919 18.56 191.299 18.54 191.739 18.5C191.912 18.4867 192.132 18.4733 192.399 18.46C192.666 18.4467 192.972 18.44 193.319 18.44C194.679 18.44 195.752 18.7267 196.539 19.3C197.326 19.86 197.719 20.7333 197.719 21.92C197.719 22.7467 197.506 23.4467 197.079 24.02C196.652 24.5933 196.099 25.0267 195.419 25.32C194.752 25.6133 194.066 25.76 193.359 25.76C192.999 25.76 192.686 25.7267 192.419 25.66C192.392 25.66 192.379 25.6267 192.379 25.56C192.379 25.52 192.386 25.48 192.399 25.44C192.426 25.4 192.452 25.3867 192.479 25.4C192.679 25.4533 192.906 25.48 193.159 25.48C193.772 25.48 194.279 25.1933 194.679 24.62C195.092 24.0467 195.299 23.2333 195.299 22.18C195.299 21.1267 195.072 20.3133 194.619 19.74C194.179 19.1667 193.532 18.88 192.679 18.88C192.306 18.88 192.052 18.9667 191.919 19.14C191.786 19.3133 191.719 19.6533 191.719 20.16V29.3Z" fill="#ECDCC5"/>
@@ -3783,10 +3803,53 @@
           </div>
         </div>
       </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script>
     <script>
       AOS.init();
+      
     </script>
+     <script>
+      // $('.carousel-slider').slick({
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1,
+      //     autoplay: true,
+      //     autoplaySpeed: 1000,
+      // });
+      // window.onload=function(){
+      //   document.getElementById('myAudio').play()
+      // }
+
+      var sound = false
+      
+      function toggleSound(){
+        var img = document.getElementById('soundImg')
+        console.log(sound);
+        if(sound){
+          img.setAttribute('src' ,'assets/image/sound-off.png')
+          document.getElementById('myAudio').pause()
+        }else{
+          img.setAttribute('src' ,'assets/image/sound-on.png')
+          document.getElementById('myAudio').play()
+        }
+        sound = !sound
+      }
+
+      function showSound(){
+        var img = document.getElementById('soundImg')
+        img.setAttribute('src' ,'assets/image/sound-on.png')
+        document.getElementById('myAudio').play()
+        setTimeout(() => {
+          $('.soundon').fadeIn()
+          $('.rsvp').addClass('show')
+        }, 500);
+        sound = !sound
+      }
+      
+    </script>  
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
       // Get the modal
@@ -3980,14 +4043,7 @@
               }
             }, 1000);
             </script> 
-            <script>
-              $('.carousel-slider').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 1000,
-});
-            </script>         
+           
 
   </body>
 </html>
