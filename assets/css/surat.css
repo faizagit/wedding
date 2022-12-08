@@ -1,6 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/cormorant-sc');
 body {
-  background-color: #bbc2af;
+  background-color: #d2b392;
 }
 .soundon {
   background-color: #ffffff;
@@ -580,7 +580,7 @@ body {
 .kotak {
   position: absolute;
   width: 144px;
-  height: 219px;
+  height: 215px;
   left: 23px;
   top: 3090px;
 
@@ -589,7 +589,7 @@ body {
 .kotak2 {
   position: absolute;
   width: 165px;
-  height: 113px;
+  height: 110px;
   left: 183px;
   top: 3150px;
 
@@ -598,7 +598,7 @@ body {
 .kotak3 {
   position: absolute;
   width: 165px;
-  height: 113px;
+  height: 105px;
   left: 23px;
   top: 3350px;
 
@@ -607,7 +607,7 @@ body {
 .kotak4 {
   position: absolute;
   width: 144px;
-  height: 219px;
+  height: 215px;
   left: 204px;
   top: 3290px;
 
@@ -1066,6 +1066,10 @@ input,
   letter-spacing: 0.025em;
 
   color: #ffffff;
+}
+.maskgroup {
+  width: 293px;
+  height: 405.47px;
 }
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
