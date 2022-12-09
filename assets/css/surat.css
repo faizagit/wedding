@@ -1,6 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/cormorant-sc');
 body {
-  background-color: #d2b392;
+  background-color: #b2cee4;
 }
 .soundon {
   background-color: #ffffff;
@@ -124,7 +124,7 @@ body {
   right: 66.67%;
   top: 1131px;
 }
-.jadwal-13 {
+.jadwal-14 {
   position: absolute;
   width: 127px;
   height: 194px;
@@ -139,11 +139,11 @@ body {
   opacity: 0.3;
   color: #6a6d64;
 }
-.jadwal-11 {
+.jadwal-01 {
   position: absolute;
   width: 110px;
   height: 194px;
-  left: 209px;
+  left: 200px;
   top: 904px;
 
   font-family: 'Cormorant SC';
@@ -155,7 +155,7 @@ body {
   color: #6a6d64;
   opacity: 0.3;
 }
-.jadwal-22 {
+.jadwal-23 {
   position: absolute;
   width: 144px;
   height: 194px;
@@ -262,7 +262,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  color: #6a6d64;
+  color: #ffffff;
   opacity: 0.9;
 }
 .place3 {
@@ -270,7 +270,7 @@ body {
   width: 170px;
   height: 48px;
   left: 42px;
-  top: 1485px;
+  top: 1470px;
 
   font-family: 'Cormorant SC';
   font-style: normal;
@@ -431,7 +431,7 @@ body {
 
   text-align: center;
 
-  color: #bd7b5f;
+  color: #ffffff;
 }
 .days {
   display: flex;
@@ -447,7 +447,7 @@ body {
   left: -10px;
   top: 100px;
 
-  background: #f3dbb5;
+  background: #b2cee4;
   border-radius: 4px;
 }
 .hours {
@@ -464,7 +464,7 @@ body {
   left: 70px;
   top: 100px;
 
-  background: #f3dbb5;
+  background: #b2cee4;
   border-radius: 4px;
 }
 .minutes {
@@ -481,7 +481,7 @@ body {
   left: 150px;
   top: 100px;
 
-  background: #f3dbb5;
+  background: #b2cee4;
   border-radius: 4px;
 }
 .seconds {
@@ -498,7 +498,7 @@ body {
   left: 230px;
   top: 100px;
 
-  background: #f3dbb5;
+  background: #b2cee4;
   border-radius: 4px;
 }
 .imager {
@@ -540,7 +540,7 @@ body {
   line-height: 22px;
   text-align: center;
 
-  color: #6a6d64;
+  color: #ffffff;
 }
 .isi-wish {
   position: absolute;
@@ -556,7 +556,7 @@ body {
   line-height: 18px;
   text-align: center;
 
-  color: #6a6d64;
+  color: #ffffff;
 }
 .isi-wish1 {
   margin-top: 20px;
@@ -649,7 +649,7 @@ body {
   line-height: 18px;
   text-align: center;
 
-  color: #6a6d64;
+  color: #000000;
 }
 .click-here {
   display: flex;
@@ -702,7 +702,7 @@ body {
   height: 678.94px;
   left: 67.09px;
   right: 200px;
-  top: 1433.07px;
+  top: 1450px;
 }
 .flower-image-left {
   position: absolute;
