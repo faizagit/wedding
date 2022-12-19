@@ -1,6 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/cormorant-sc');
 body {
-  background-color: #b2cee4;
+  background-color: #7eacde;
 }
 .soundon {
   background-color: #ffffff;
@@ -30,7 +30,7 @@ body {
 .title {
   position: absolute;
   height: 25px;
-  left: 115px;
+  left: 110px;
   top: 425px;
 
   font-family: 'Cormorant SC';
@@ -45,7 +45,7 @@ body {
   position: absolute;
   width: 175px;
   height: 53px;
-  left: 115px;
+  left: 80px;
   top: 463px;
 
   font-family: 'Cormorant SC';
@@ -73,7 +73,7 @@ body {
   position: absolute;
   width: none;
   height: 25px;
-  left: 115px;
+  left: 110px;
   top: 566px;
   font-family: 'Cormorant SC';
   font-style: normal;
@@ -109,7 +109,7 @@ body {
     opacity: 0;
   }
 }
-.inisial-c {
+.inisial-d {
   width: 117px;
   position: absolute;
   height: 132px;
@@ -117,12 +117,26 @@ body {
   right: 64%;
   top: 720px;
 }
-.inisial-f {
+.inisial-r {
   position: absolute;
   height: 140px;
   left: 27px;
   right: 66.67%;
-  top: 1131px;
+  top: 1110px;
+}
+.group-jadwal {
+  position: absolute;
+  width: 127px;
+  height: 194px;
+  left: 202px;
+  top: 760px;
+
+  font-family: 'Cormorant SC';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 160px;
+  line-height: 194px;
+  opacity: 0.7;
 }
 .jadwal-14 {
   position: absolute;
@@ -170,6 +184,11 @@ body {
 
   color: #6a6d64;
   opacity: 0.3;
+}
+.group-huruf {
+  position: absolute;
+  left: 60px;
+  top: 920px;
 }
 .hurufc {
   position: absolute;
@@ -447,7 +466,7 @@ body {
   left: -10px;
   top: 100px;
 
-  background: #b2cee4;
+  background: #6398dc;
   border-radius: 4px;
 }
 .hours {
@@ -464,7 +483,7 @@ body {
   left: 70px;
   top: 100px;
 
-  background: #b2cee4;
+  background: #6398dc;
   border-radius: 4px;
 }
 .minutes {
@@ -481,7 +500,7 @@ body {
   left: 150px;
   top: 100px;
 
-  background: #b2cee4;
+  background: #6398dc;
   border-radius: 4px;
 }
 .seconds {
@@ -498,8 +517,14 @@ body {
   left: 230px;
   top: 100px;
 
-  background: #b2cee4;
+  background: #6398dc;
   border-radius: 4px;
+}
+.rectangle {
+  width: 375px;
+  height: 667px;
+  position: absolute;
+  background: linear-gradient(0.98deg, rgba(178, 206, 228, 0.9) 5.95%, rgba(178, 206, 228, 0.9) 21.97%, rgba(178, 206, 228, 0) 67.05%);
 }
 .imager {
   width: 375px;
@@ -632,7 +657,7 @@ body {
   position: absolute;
   width: 200px;
   height: 300px;
-  left: 63.5px;
+  left: 60.5px;
   top: 100px;
 }
 .isi-gift {
@@ -716,7 +741,7 @@ body {
   left: 0px;
   top: 955px;
 }
-.flower-inisial-c {
+.flower-inisial-d {
   position: absolute;
   height: 318px;
   right: 200px;
@@ -1048,7 +1073,7 @@ input,
   position: absolute;
   width: 44px;
   height: 46.75px;
-  left: 259.12px;
+  left: 280.12px;
   top: -10px;
 }
 .wedding-gift {
@@ -1071,6 +1096,7 @@ input,
   width: 293px;
   height: 405.47px;
 }
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content {
