@@ -271,7 +271,7 @@ body {
 }
 .place2 {
   position: absolute;
-  width: 180px;
+  width: 150px;
   height: 36px;
   left: 42px;
   top: 1435px;
@@ -286,7 +286,7 @@ body {
 }
 .place3 {
   position: absolute;
-  width: 170px;
+  width: 90px;
   height: 48px;
   left: 42px;
   top: 1470px;
@@ -653,11 +653,16 @@ body {
 
   color: #bd7b5f;
 }
+.kotakluar1 {
+  position: absolute;
+  left: 23px;
+}
+
 .qr-code {
   position: absolute;
-  width: 200px;
+  width: 250px;
   height: 300px;
-  left: 60.5px;
+  left: 55px;
   top: 100px;
 }
 .isi-gift {
@@ -720,7 +725,7 @@ body {
   position: absolute;
   height: 202.41px;
   left: 227px;
-  top: 3660px;
+  top: 3653px;
 }
 .flower-image {
   position: absolute;
@@ -1079,7 +1084,7 @@ input,
 .wedding-gift {
   position: absolute;
   height: 36px;
-  left: 55px;
+  left: 70px;
   top: 50px;
 
   font-family: 'Cormorant SC';
